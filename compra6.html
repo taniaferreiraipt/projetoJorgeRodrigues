@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt_PT">
+    <head>
+        <title>Jorge Rodrigues</title>
+        <link href="mystyle.css" rel="stylesheet">
+        <script src="script.js" rel="stylesheet"></script>
+    </head>
+
+    <body>
+        <ul> <!--navbar-->
+            <li><a href="personalizados.html">Personalizados</a></li>
+             <li><a href="loja.html">Loja</a></li>
+             <li><a href="Quadros.html">Quadros</a></li>  
+             <img class=".insta" src="Instagram-Logo-Contornado-Pontuado-Icone6.png" alt="imagem" width="30px">                
+             <h1><a href="https://www.instagram.com/jorgesilverwrath/">@jorgesilverwrath</a></h1>
+             <h2><a class="homebtn" href="index.HTML">Jorge Rodrigues</a></h2>
+     </ul>
+    <!--Marcadores de Livros-->
+     <section class="container11">
+        <div class="slider-wrapper">
+            <div class="slider4">
+                
+                <img id="slide-52" src="marcadores de livros/marcador 1/marcador 1 v3 preto_Prancheta 1.png" onclick="window.open('compra.html', '_blank')">
+                <img id="slide-51" src="marcadores de livros/marcador 1/marcador 1 v3_Prancheta 1.png" onclick="window.open('compra.html', '_blank')">
+                
+                <div>
+                    <div class="slider-nav">
+                        <a  href="#slide-52"></a>                     
+                        <a  href="#slide-51"></a>                 
+                    </div>                      
+                 </div>
+            </div>
+            <div >
+                <h20 id="Branco">Cor:Preto</h20>               
+            </div>
+
+            <div class="dotscompra2" >
+                <!--bolinhas para trocar de cor-->
+                <div class="slider-nav-preto1" onclick="Branco()">
+                    <a href="#slide-51"></a>  
+                    
+                </div>
+                <div class="slider-nav-branco1" onclick="Preto()">
+                    <a href="#slide-52"></a>
+                </div>
+                
+                </div>
+                <h21>5,00€</h22>
+                <button class="button2" type="button" onclick="window.open('comprar6.html', '_blank')">Compra já! 
+                    <img class="imgcarrinho" src="carrinho.png" width="30px" height="auto">
+                </button>
+                
+               
+            </div>  
+             <!--Pôr o nome da cor a mudar-->
+            <script> 
+                function Branco(){
+                    document.getElementById('Branco').innerHTML
+                    = 'Cor:Branco';
+                }
+                function Preto(){
+                    document.getElementById('Branco').innerHTML
+                    ='Cor:Preto';
+                }
+                function Azul(){
+                    document.getElementById('Branco').innerHTML
+                    ='Cor:Azul';
+                }
+                function Rosa(){
+                    document.getElementById('Branco').innerHTML
+                    ='Cor:Rosa';
+                }
+                function Verde(){
+                    document.getElementById('Branco').innerHTML
+                    ='Cor:Verde';
+                }
+            </script>
+
+        </div>
+        <h19>Marcador: Flowers</h19>
+     </section>
+
+     <h22>Artigos semelhantes...</h22> 
+
+     <div class="cardsemelhantes cardsem-21" onclick="window.open('compra8.html', '_blank')">
+    </div>
+    <div class="cardsemelhantes cardsem-22" onclick="window.open('compra.html', '_blank')">
+    </div>
+    <div class="cardsemelhantes cardsem-23" onclick="window.open('compra10.html', '_blank')">
+    </div>
+    <div class="cardsemelhantes cardsem-24" onclick="window.open('compra2.html', '_blank')">
+    </div>
+
+     <footer class="footer4"> <!--rodape-->
+        <p>2023</p>
+            <ul class="rodape">
+                <a href="contactos.html"><li><h1 class="contactrdp">Contactos</h1></li></a>
+                <li><h1><a class="personalizadosrdp" href="personalizados.html">Personalizados</a></h1></li>
+                <li><h1><a class="lojardp" href="loja.html">Loja</a></h1></li>
+                <li><h1><a class="quadrosrdp" href="Quadros.html">Quadros</a></h1></li>
+                <li><h1><a class="inst2" href="https://www.instagram.com/jorgesilverwrath/">@jorgesilverwrath</a></h1></li>
+                <li><img class="inst" src="Instagram-Logo-Contornado-Pontuado-Icone6.png" alt="instagram" height="50px"><li></li>
+               <li><img class="logo" src="logo Jorge Rodrigues preto.png" alt="Jorge Rodrigues" height="100px"></li>
+            </ul>
+
+
+    </footer>
+
+
+
+
+
+    </body>
+
+
+
+
+</html>

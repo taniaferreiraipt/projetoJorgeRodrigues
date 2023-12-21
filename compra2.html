@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt_PT">
+    <head>
+        <title>Jorge Rodrigues</title>
+        <link href="mystyle.css" rel="stylesheet">
+        <script src="script.js" rel="stylesheet"></script>
+    </head>
+
+    <body>
+        <ul> <!--NavBar-->
+            <li><a href="personalizados.html">Personalizados</a></li>
+             <li><a href="loja.html">Loja</a></li>
+             <li><a href="Quadros.html">Quadros</a></li>  
+             <img class=".insta" src="Instagram-Logo-Contornado-Pontuado-Icone6.png" alt="imagem" width="30px">                
+             <h1><a href="https://www.instagram.com/jorgesilverwrath/">@jorgesilverwrath</a></h1>
+             <h2><a class="homebtn" href="index.HTML">Jorge Rodrigues</a></h2>
+     </ul>
+    
+     <section class="container11">
+        <div class="slider-wrapper">
+            <div class="slider3">
+                <!--Cores das t-shirts-->
+                <img id="slide-11" src="t-shirts/tshirt2/tshirt2 frente branco.png">
+                <img id="slide-12" src="t-shirts/tshirt2/tshirt2 costas branco.png">
+                <img id="slide-13" src="t-shirts/tshirt2/tshirt2 frente preto.png">
+                <img id="slide-14" src="t-shirts/tshirt2/tshirt2 costas preto.png">
+                <img id="slide-15" src="t-shirts/tshirt2/tshirt2 azul frente.png">
+                <img id="slide-16" src="t-shirts/tshirt2/tshirt2 azul costas.png">
+                <img id="slide-17" src="t-shirts/tshirt2/tshirt2 rosa frente.png">
+                <img id="slide-18" src="t-shirts/tshirt2/tshirt2 rosa costas.png">
+                <img id="slide-19" src="t-shirts/tshirt2/tshirt2 verde escuro frente.png">
+                <img id="slide-20" src="t-shirts/tshirt2/tshirt2 verde escuro costas.png">
+                
+                <div>
+                    <div class="slider-nav">
+                        <a  href="#slide-11"></a>                     
+                        <a  href="#slide-12"></a>                 
+                                    
+                        <a  href="#slide-13"></a>
+                        <a  href="#slide-14"></a>                    
+                        <a  href="#slide-15"></a>
+                        <a  href="#slide-16"></a>
+                        <a  href="#slide-17"></a>
+                        <a  href="#slide-18"></a>
+                        <a  href="#slide-19"></a>
+                        <a  href="#slide-20"></a>
+                    </div>                      
+                 </div>
+            </div>
+            <div >
+                <h18 id="Branco">Cor:Branco</h18>               
+            </div>
+
+            <div class="dotscompra" >
+                <!--Bolinhas para trocar de cor-->
+                <div class="slider-nav-branco" onclick="Branco()">
+                    <a href="#slide-11"></a>  
+                    
+                </div>
+                <div class="slider-nav-preto" onclick="Preto()">
+                    <a href="#slide-13"></a>
+                </div>
+                <div class="slider-nav-azul" onclick="Azul()">
+                    <a href="#slide-15"></a>
+                </div>
+                <div class="slider-nav-rosa" onclick="Rosa()">
+                    <a href="#slide-17"></a>
+                </div>
+                <div class="slider-nav-verde" onclick="Verde()">
+                    <a href="#slide-19"></a>
+                </div>
+                <h17>19,99€</h17>
+                <button type="button" class="button" onclick="window.open('comprar2.html', '_blank')">Compra já! 
+                    <img class="imgcarrinho" src="carrinho.png" width="30px" height="auto">
+                </button>
+                
+               
+            </div>  
+
+            
+             <!--Pôr o nome da cor a mudar-->
+            <script> 
+                function Branco(){
+                    document.getElementById('Branco').innerHTML
+                    = 'Cor:Branco';
+                }
+                function Preto(){
+                    document.getElementById('Branco').innerHTML
+                    ='Cor:Preto';
+                }
+                function Azul(){
+                    document.getElementById('Branco').innerHTML
+                    ='Cor:Azul';
+                }
+                function Rosa(){
+                    document.getElementById('Branco').innerHTML
+                    ='Cor:Rosa';
+                }
+                function Verde(){
+                    document.getElementById('Branco').innerHTML
+                    ='Cor:Verde';
+                }
+            </script>
+        </div>
+        <h16>T-shirt: Green Night</h16>
+     </section>
+
+     <h22>Artigos semelhantes...</h22>
+
+     <div class="cardsemelhantes cardsem-5" onclick="window.open('compra7.html', '_blank')">
+    </div>
+    <div class="cardsemelhantes cardsem-6" onclick="window.open('compra3.html', '_blank')">
+    </div>
+    <div class="cardsemelhantes cardsem-7" onclick="window.open('compra9.html', '_blank')">
+    </div>
+    <div class="cardsemelhantes cardsem-8" onclick="window.open('compra.html', '_blank')">
+    </div>
+
+     <footer class="footer4"> <!--Rodapé-->
+        <p>2023</p>
+            <ul class="rodape"> 
+                <a href="contactos.html"><li><h1 class="contactrdp">Contactos</h1></li></a>
+                <li><h1><a class="personalizadosrdp" href="personalizados.html">Personalizados</a></h1></li>
+                <li><h1><a class="lojardp" href="loja.html">Loja</a></h1></li>
+                <li><h1><a class="quadrosrdp" href="Quadros.html">Quadros</a></h1></li>
+                <li><h1><a class="inst2" href="https://www.instagram.com/jorgesilverwrath/">@jorgesilverwrath</a></h1></li>
+                <li><img class="inst" src="Instagram-Logo-Contornado-Pontuado-Icone6.png" alt="instagram" height="50px"><li></li>
+               <li><img class="logo" src="logo Jorge Rodrigues preto.png" alt="Jorge Rodrigues" height="100px"></li>
+            </ul>
+
+
+    </footer>
+
+
+
+
+
+    </body>
+
+
+
+
+</html>
